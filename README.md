@@ -70,6 +70,11 @@ The streaming service can be a custom version of [TgFileStream](https://github.c
 
 ## Supported commands and functions
 
+##Deploy Button 
+<a href="https://render.com/deploy?repo=https://github.com/roast01/animated-lamp">
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
+
 ### Commands
 
 **General commands**
