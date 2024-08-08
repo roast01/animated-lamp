@@ -1,0 +1,23 @@
+services:
+  - type: web
+    plan: free
+    name: ScreenshotBot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 bot.py
+    repo: https://github.com/roast01/animated-lamp      
+    branch: master
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: AUTH_USERS
+        sync: false
+      - key: DATABASE_URI
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false    
+    autoDeploy: true
